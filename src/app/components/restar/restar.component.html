@@ -1,1 +1,19 @@
-<p>restar works!</p>
+<div class="resta">
+    <!-- <p><span>{{num1}}</span>-<span>{{num2}}</span>=<span>{{resultado}}</span></p> -->
+    <p><span>{{num1}}</span>-<span>{{num2}}</span></p>
+    <p>{{mensaje}}</p>
+    <!-- Con inyeccion de Js para HTML -->
+    <!-- <button onclick="">Restar</button> -->
+
+    <!-- Con Js nativo -->
+    <!-- <button class="btn">Restar</button> -->
+
+    <!-- con angular -->
+    <button data-mensaje="resultado de la resta:" data-fecha="2021-08-16" id="miResta" (click)="devolverResultado($event)">RESTAR</button>
+</div>
+
+<!-- con Js nativo -->
+<!-- <script>
+    document.querySelector('btn').addEventListener('click', (event)=>{});
+</script> -->
+    
