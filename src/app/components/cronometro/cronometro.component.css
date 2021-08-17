@@ -1,0 +1,15 @@
+.cronometro{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    /* cuando le pones el ancho se te va para la izquierda */
+    width: 100px;
+    border: 1px solid black;
+    /* para centrarlo */
+    /* margin: 0 auto; */
+}
+p{
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
